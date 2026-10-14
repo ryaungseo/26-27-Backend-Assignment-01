@@ -3,7 +3,6 @@ package com.gdg.restapiexample.service;
 import com.gdg.restapiexample.domain.Todo;
 import com.gdg.restapiexample.dto.TodoRequest;
 import com.gdg.restapiexample.dto.TodoResponse;
-import com.gdg.restapiexample.repository.StudentRepository;
 import com.gdg.restapiexample.repository.TodoRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -49,7 +48,4 @@ public class TodoService {
                 .toList();
     }
 }
-
-
-
-
+//수정

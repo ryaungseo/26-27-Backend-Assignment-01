@@ -9,7 +9,7 @@ public class Todo {
 
     private Long id;
     private String title;
-    private boolean completed;
+    private Boolean completed;
 
     public void update(String title, Boolean completed) {
         if (title != null) {
@@ -21,5 +21,5 @@ public class Todo {
         }
     }
 }
-
+//수정
 
